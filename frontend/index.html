@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>League Table</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scan-beam"></div>
+<div class="scanlines"></div>
+
+<header><span class="header-bracket"></span>
+    <h1>Football League Manager<span class="tagline">Season 2024/25 &nbsp;// &nbsp;Live Stats<span class="cursor">_</span></span></h1>
+    <div class="header-actions">
+        <button id="save-btn" class="save-btn" onclick="save()">Saved</button>
+    </div>
+</header>
+
+<nav id="nav"></nav>
+
+<section>
+    <h2>League Table</h2>
+    <table id="table"></table>
+</section>
+
+<script src="nav.js"></script>
+<script src="script.js"></script>
+<script>
+    renderNav();
+    load().then(() => {
+        resetStats();
+        calculateResults();
+        sortTable();
+        renderTable();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,957 @@
+/* ================================================
+   FOOTBALL LEAGUE MANAGER — MAXIMUM CSS
+   Broadcast Dark • Holographic Surfaces • Plasma Grid
+================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap');
+
+/* =========================
+   DESIGN TOKENS
+========================= */
+:root {
+    --bg:       #01040a;
+    --bg2:      #020610;
+    --surface:  rgba(5, 12, 28, 0.94);
+    --surface2: rgba(8, 16, 36, 0.97);
+    --glass:    rgba(0, 255, 179, 0.02);
+
+    --accent:   #00ffb3;
+    --accent2:  #00b4ff;
+    --accent3:  #ff3e6c;
+    --accent4:  #b44dff;
+    --gold:     #ffd166;
+    --silver:   #a8c4d8;
+    --bronze:   #d4855a;
+
+    --text:     #ccdaee;
+    --text2:    #8faabf;
+    --muted:    #3a5268;
+    --muted2:   #1e3048;
+    --muted3:   #111e2e;
+
+    --border:       rgba(0, 255, 179, 0.1);
+    --border2:      rgba(0, 180, 255, 0.12);
+    --border-glow:  rgba(0, 255, 179, 0.5);
+}
+
+/* =========================
+   RESET
+========================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+/* =========================
+   KEYFRAMES
+========================= */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes titleFlicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 16px var(--accent),
+            0 0 40px var(--accent),
+            0 0 80px rgba(0,255,179,0.4),
+            0 0 160px rgba(0,200,255,0.15);
+        opacity: 1;
+    }
+    20%, 24%, 55% { opacity: 0.85; text-shadow: none; }
+}
+
+@keyframes scanH {
+    0%   { background-position: -100% 0; }
+    100% { background-position: 200% 0; }
+}
+
+
+@keyframes gridDrift {
+    0%   { transform: translateX(0) translateY(0); }
+    100% { transform: translateX(40px) translateY(40px); }
+}
+
+@keyframes borderPulse {
+    0%, 100% { opacity: 0.4; }
+    50%       { opacity: 1; }
+}
+
+@keyframes navActive {
+    0%, 100% { box-shadow: 0 0 10px rgba(0,255,179,0.5), inset 0 0 10px rgba(0,255,179,0.1); }
+    50%       { box-shadow: 0 0 24px rgba(0,255,179,0.8), inset 0 0 16px rgba(0,255,179,0.15); }
+}
+
+@keyframes rowIn {
+    from { opacity: 0; transform: translateX(-10px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes glowLine {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+@keyframes unsavedPulse {
+    0%, 100% { box-shadow: 0 0 6px rgba(255,200,0,0.3), 0 0 0 1px rgba(255,200,0,0.2); }
+    50%       { box-shadow: 0 0 20px rgba(255,200,0,0.6), 0 0 0 1px rgba(255,200,0,0.5); }
+}
+
+@keyframes cursorBlink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+
+@keyframes cornerSpin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+@keyframes holoPan {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Matchday tables in fixtures page */
+.matchday-table {
+    margin-bottom: 24px;
+    table-layout: fixed;
+}
+
+.matchday-table:last-child {
+    margin-bottom: 0;
+}
+
+/* Fixed column widths for fixtures so long names never squeeze inputs */
+.matchday-table th:nth-child(1),
+.matchday-table td:nth-child(1) { width: 38%; text-align: left; }
+
+.matchday-table th:nth-child(2),
+.matchday-table td:nth-child(2) { width: 38%; text-align: center; }
+
+.matchday-table th:nth-child(3),
+.matchday-table td:nth-child(3) { width: 8%; }
+
+.matchday-table th:nth-child(4),
+.matchday-table td:nth-child(4) { width: 8%; }
+
+.matchday-table th:nth-child(5),
+.matchday-table td:nth-child(5) { width: 8%; }
+
+/* Away team — centred, not left-aligned */
+.matchday-table td:nth-child(2).team-name {
+    text-align: center !important;
+}
+
+/* Home team — left-aligned */
+.matchday-table td:nth-child(1).team-name {
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+/* Allow long names to wrap rather than overflow */
+.matchday-table .team-name {
+    white-space: normal !important;
+    word-break: break-word;
+    font-size: 12px !important;
+    letter-spacing: 1.5px !important;
+}
+
+/* =========================
+   BACKGROUND — DEEP SPACE
+========================= */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: var(--bg);
+    color: var(--text);
+    padding: 32px 40px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    line-height: 1.5;
+}
+
+/* Base nebula */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 90% 60% at 15% -5%,   rgba(0,  80,220,0.22)  0%, transparent 55%),
+        radial-gradient(ellipse 70% 50% at 85%  105%,  rgba(0, 200,120,0.15)  0%, transparent 50%),
+        radial-gradient(ellipse 50% 40% at 50%  50%,   rgba(180, 0,255,0.05)  0%, transparent 60%),
+        radial-gradient(ellipse 30% 30% at 80%  10%,   rgba(0, 180,255,0.08)  0%, transparent 45%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Animated grid overlay */
+body::after {
+    content: '';
+    position: fixed;
+    inset: -80px;
+    background-image:
+        linear-gradient(rgba(0,255,179,0.028) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,179,0.028) 1px, transparent 1px);
+    background-size: 48px 48px;
+    animation: gridDrift 20s linear infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Vertical scan beam */
+body > .scan-beam {
+    position: fixed;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(0,255,179,0.0) 20%,
+        rgba(0,255,179,0.6) 50%,
+        rgba(0,180,255,0.4) 65%,
+        transparent 100%
+    );
+    animation: scanBeamMove 9s linear infinite;
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.4;
+}
+
+@keyframes scanBeamMove {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+/* Scanlines */
+body > .scanlines {
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.14) 2px,
+        rgba(0,0,0,0.14) 4px
+    );
+    pointer-events: none;
+    z-index: 998;
+}
+
+body > * { position: relative; z-index: 1; }
+
+/* =========================
+   HEADER
+========================= */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 22px 36px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeUp 0.5s ease both;
+
+    background:
+        linear-gradient(135deg, rgba(0,255,179,0.025) 0%, rgba(0,100,255,0.02) 100%),
+        var(--surface);
+
+    border: 1px solid rgba(0,255,179,0.12);
+    border-top: none;
+    border-radius: 0 0 2px 2px;
+}
+
+/* Holographic top bar */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+        var(--accent4),
+        var(--accent2),
+        var(--accent),
+        var(--accent2),
+        var(--accent4)
+    );
+    background-size: 300% 100%;
+    animation: glowLine 3s linear infinite;
+    box-shadow: 0 0 12px rgba(0,255,179,0.8), 0 0 30px rgba(0,180,255,0.4);
+}
+
+/* Bottom-right corner bracket */
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 8px; right: 14px;
+    width: 20px; height: 20px;
+    border-right: 1px solid rgba(0,255,179,0.35);
+    border-bottom: 1px solid rgba(0,255,179,0.35);
+}
+
+/* Top-left bracket */
+.header-bracket {
+    position: absolute;
+    top: 8px; left: 14px;
+    width: 20px; height: 20px;
+    border-left: 1px solid rgba(0,255,179,0.35);
+    border-top: 1px solid rgba(0,255,179,0.35);
+    pointer-events: none;
+}
+
+.header-actions { display: flex; align-items: center; gap: 12px; }
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.9rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: var(--accent);
+    line-height: 1;
+    animation: titleFlicker 8s ease-in-out infinite;
+}
+
+h1 .tagline {
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 5px;
+    color: var(--muted);
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    animation: none;
+    text-shadow: none;
+}
+
+h1 .cursor {
+    display: inline-block;
+    animation: cursorBlink 1s step-end infinite;
+    color: var(--accent);
+}
+
+h2 {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+}
+
+h2::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 20px;
+    background: linear-gradient(180deg, var(--accent2), var(--accent));
+    box-shadow: 0 0 8px rgba(0,255,179,0.8), 0 0 20px rgba(0,180,255,0.4);
+    flex-shrink: 0;
+}
+
+h2::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,255,179,0.3), transparent);
+}
+
+/* =========================
+   NAV
+========================= */
+nav {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 36px;
+    animation: fadeUp 0.6s ease 0.1s both;
+    padding: 5px;
+    background: rgba(2, 6, 14, 0.9);
+    border: 1px solid rgba(0,255,179,0.1);
+    width: fit-content;
+    position: relative;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+}
+
+nav::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,255,179,0.3), rgba(0,180,255,0.2), transparent);
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,255,179,0.1), transparent);
+}
+
+.nav-link {
+    font-family: 'Space Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    padding: 10px 24px;
+    color: var(--muted);
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 50%; right: 50%;
+    height: 1px;
+    background: var(--accent);
+    transition: left 0.2s ease, right 0.2s ease;
+    box-shadow: 0 0 6px rgba(0,255,179,0.8);
+}
+
+.nav-link:hover {
+    color: var(--accent);
+    background: rgba(0,255,179,0.04);
+}
+
+.nav-link:hover::before { left: 20%; right: 20%; }
+
+.nav-link.active {
+    color: #000;
+    background: var(--accent);
+    font-weight: 700;
+    animation: navActive 2.5s ease-in-out infinite;
+}
+
+.nav-link.active::before { display: none; }
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+    margin-bottom: 44px;
+    animation: fadeUp 0.5s ease both;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    gap: 36px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.section-header h2 { margin-bottom: 0; flex: 1; }
+.section-header h2::after { display: none; }
+
+/* =========================
+   TABLES — HOLOGRAPHIC PANEL
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    background:
+        linear-gradient(135deg, rgba(0,255,179,0.015) 0%, rgba(0,0,0,0) 50%, rgba(0,180,255,0.01) 100%),
+        var(--surface);
+    border: 1px solid rgba(0,255,179,0.1);
+    overflow: hidden;
+    transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+table::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--accent2) 20%,
+        var(--accent)  50%,
+        var(--accent2) 80%,
+        transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: glowLine 4s linear infinite;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+table::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,255,179,0.15), transparent);
+}
+
+table:hover {
+    border-color: rgba(0,255,179,0.22);
+    box-shadow:
+        0 0 0 1px rgba(0,255,179,0.05),
+        0 8px 60px rgba(0,0,0,0.7),
+        0 0 40px rgba(0,255,179,0.04) inset;
+}
+
+/* =========================
+   TH
+========================= */
+thead tr {
+    background:
+        linear-gradient(90deg, rgba(0,255,179,0.04), rgba(0,180,255,0.04), rgba(0,255,179,0.04));
+}
+
+th {
+    font-family: 'Orbitron', monospace;
+    font-size: 7.5px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 14px 16px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,255,179,0.08);
+    white-space: nowrap;
+}
+
+/* =========================
+   TD / ROWS
+========================= */
+tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.022);
+    transition: background 0.15s ease;
+    animation: rowIn 0.3s ease both;
+    position: relative;
+}
+
+tbody tr:hover {
+    background: rgba(0,255,179,0.035);
+}
+
+tbody tr:hover::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, var(--accent), transparent);
+    box-shadow: 0 0 8px var(--accent);
+}
+
+/* Fixture tables: suppress the absolute pseudo that breaks fixed-layout */
+.matchday-table tbody tr:hover::after {
+    display: none;
+}
+
+/* position: relative on tr breaks fixed-layout column widths in Chrome on hover */
+.matchday-table tbody tr {
+    position: static;
+}
+
+td {
+    padding: 11px 16px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    color: var(--text);
+}
+
+td:first-child {
+    color: var(--muted);
+    font-size: 9.5px;
+    width: 42px;
+    letter-spacing: 1px;
+}
+
+/* =========================
+   SPECIAL CELLS
+========================= */
+.team-name {
+    text-align: left !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase;
+    color: var(--text) !important;
+    transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+tbody tr:hover .team-name {
+    color: var(--accent) !important;
+    text-shadow: 0 0 16px rgba(0,255,179,0.5);
+}
+
+.pts {
+    color: var(--accent) !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    text-shadow: 0 0 10px rgba(0,255,179,0.6);
+    letter-spacing: 1px !important;
+}
+
+/* Podium */
+tbody tr:nth-child(1) {
+    background: rgba(255,200,0,0.025);
+}
+tbody tr:nth-child(1) .pts {
+    color: var(--gold) !important;
+    text-shadow: 0 0 14px rgba(255,200,0,0.7);
+}
+tbody tr:nth-child(1) td:first-child::before { content: '🥇 '; }
+
+tbody tr:nth-child(2) .pts {
+    color: var(--silver) !important;
+    text-shadow: 0 0 12px rgba(168,196,216,0.6);
+}
+tbody tr:nth-child(2) td:first-child::before { content: '🥈 '; }
+
+tbody tr:nth-child(3) .pts {
+    color: var(--bronze) !important;
+    text-shadow: 0 0 12px rgba(212,133,90,0.6);
+}
+tbody tr:nth-child(3) td:first-child::before { content: '🥉 '; }
+
+/* Relegation */
+tbody tr:nth-last-child(-n+3) {
+    border-left: 2px solid rgba(255,60,100,0.35);
+}
+tbody tr:nth-last-child(-n+3) td:first-child {
+    color: var(--accent3);
+}
+
+/* Matchday header */
+tr.matchday-row th {
+    background: linear-gradient(90deg,
+        rgba(0,255,179,0.07),
+        rgba(0,180,255,0.05),
+        rgba(0,255,179,0.07)
+    );
+    color: var(--accent);
+    font-size: 7px;
+    letter-spacing: 6px;
+    border-top: 1px solid rgba(0,255,179,0.12);
+    border-bottom: 1px solid rgba(0,255,179,0.08);
+    text-shadow: 0 0 12px rgba(0,255,179,0.5);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button {
+    font-family: 'Space Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    border: 1px solid var(--muted2);
+    background: rgba(4, 10, 22, 0.8);
+    color: var(--muted);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg,
+        transparent 30%,
+        rgba(255,255,255,0.05) 50%,
+        transparent 70%
+    );
+    transform: translateX(-150%);
+    transition: none;
+}
+
+button:hover {
+    color: var(--text);
+    transform: translateY(-2px);
+    border-color: var(--muted);
+}
+
+button:hover::before { animation: scanH 0.5s ease forwards; }
+button:active { transform: scale(0.97); }
+
+.add-btn {
+    border-color: rgba(0,180,255,0.25);
+    color: var(--accent2);
+}
+
+.add-btn:hover {
+    background: var(--accent2);
+    color: #000;
+    border-color: var(--accent2);
+    box-shadow: 0 0 28px rgba(0,180,255,0.45), 0 4px 20px rgba(0,0,0,0.5);
+    font-weight: 700;
+}
+
+.save-btn {
+    border-color: rgba(0,255,179,0.3);
+    color: var(--accent);
+    padding: 11px 32px;
+    font-size: 9px;
+}
+
+.save-btn:hover {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    box-shadow: 0 0 32px rgba(0,255,179,0.55), 0 6px 24px rgba(0,0,0,0.5);
+    font-weight: 700;
+}
+
+.save-btn.unsaved {
+    border-color: rgba(255,200,0,0.5) !important;
+    color: var(--gold) !important;
+    animation: unsavedPulse 1.8s ease-in-out infinite;
+}
+
+.save-btn.saved {
+    border-color: rgba(0,255,179,0.6) !important;
+    color: var(--accent) !important;
+    box-shadow: 0 0 24px rgba(0,255,179,0.35) !important;
+}
+
+.save-btn.error {
+    border-color: rgba(255,60,100,0.5) !important;
+    color: var(--accent3) !important;
+    box-shadow: 0 0 20px rgba(255,60,100,0.3) !important;
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: default;
+    transform: none !important;
+}
+
+td button {
+    padding: 4px 10px;
+    font-size: 7.5px;
+    border-color: rgba(255,60,100,0.18);
+    color: rgba(255,60,100,0.5);
+    background: transparent;
+    letter-spacing: 1px;
+    clip-path: none;
+}
+
+td button:hover {
+    background: var(--accent3);
+    color: #fff;
+    border-color: var(--accent3);
+    box-shadow: 0 0 16px rgba(255,60,100,0.5);
+    transform: none;
+}
+
+/* =========================
+   INPUTS
+========================= */
+input[type="text"],
+input:not([type]),
+input[type="number"] {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    text-align: center;
+    outline: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+input[type="number"] { width: 56px; }
+
+input:focus {
+    color: #fff;
+    background: rgba(0,255,179,0.04);
+    box-shadow: inset 0 0 0 1px rgba(0,255,179,0.22);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--muted2);
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 12px rgba(0,255,179,0.6);
+}
+
+input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 2px; left: 4px;
+    width: 5px; height: 8px;
+    border: 2px solid #000;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+}
+
+select {
+    background: rgba(4, 10, 22, 0.9);
+    border: 1px solid var(--muted2);
+    color: var(--text);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+select:hover, select:focus {
+    border-color: var(--accent2);
+    box-shadow: 0 0 12px rgba(0,180,255,0.2);
+}
+
+/* =========================
+   SEARCH BAR
+========================= */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background: rgba(2, 6, 14, 0.9);
+    border: 1px solid var(--muted2);
+    padding: 0 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.search-bar::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,180,255,0), transparent);
+    transition: background 0.2s ease;
+}
+
+.search-bar:focus-within {
+    border-color: rgba(0,180,255,0.4);
+    box-shadow: 0 0 20px rgba(0,180,255,0.1), inset 0 0 20px rgba(0,180,255,0.02);
+}
+
+.search-bar:focus-within::before {
+    background: linear-gradient(90deg, transparent, rgba(0,180,255,0.5), transparent);
+    animation: glowLine 2s linear infinite;
+}
+
+.search-icon {
+    font-size: 17px;
+    color: var(--muted);
+    margin-right: 10px;
+    line-height: 1;
+    user-select: none;
+    flex-shrink: 0;
+    transition: color 0.2s ease;
+}
+
+.search-bar:focus-within .search-icon { color: var(--accent2); }
+
+.search-input {
+    flex: 1;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--text) !important;
+    font-family: 'Space Mono', monospace !important;
+    font-size: 10.5px !important;
+    letter-spacing: 0.5px !important;
+    padding: 12px 0 !important;
+    text-align: left !important;
+    width: 100% !important;
+}
+
+.search-input::placeholder { color: var(--muted); }
+
+.search-clear {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--muted) !important;
+    font-size: 10px !important;
+    padding: 4px 6px !important;
+    letter-spacing: 0 !important;
+    cursor: pointer;
+    flex-shrink: 0;
+    clip-path: none !important;
+    transition: color 0.15s ease;
+}
+
+.search-clear:hover {
+    color: var(--accent3) !important;
+    transform: none !important;
+    background: transparent !important;
+}
+
+.search-empty {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    padding: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px dashed var(--muted2);
+    margin-bottom: 12px;
+}
+
+.search-empty strong { color: var(--text); }
+
+/* =========================
+   SCROLLBAR
+========================= */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--accent), var(--accent2));
+    border-radius: 10px;
+}
+
+/* =========================
+   SELECTION
+========================= */
+::selection { background: rgba(0,255,179,0.2); color: #fff; }

@@ -1,0 +1,9 @@
+frontend/
+├── index.html          ← 🏆 League Table
+├── fixtures.html       ← 📅 Fixtures & Results
+├── stats.html          ← ⚽ Top Scorers + Assists
+├── discipline.html     ← 🟨🟥 Yellow & Red Cards
+├── cleansheets.html    ← 🧤 Clean Sheets
+├── script.js           ← All shared logic
+├── nav.js              ← Shared nav bar renderer
+└── style.css           ← All shared styles + nav styles
