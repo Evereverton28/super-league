@@ -11,7 +11,8 @@ function renderNav() {
     const current = (raw === "" || raw === "/") ? "index.html" : raw;
 
     const html = links.map(l => `
-        <a href="${l.href}" class="nav-link ${l.href === current ? 'active' : ''}">
+        <a href="${l.href}" class="nav-link ${l.href === current ? 'active' : ''}"
+           onclick="event.preventDefault(); navigateWithCheck('${l.href}')">
             ${l.label}
         </a>
     `).join("");

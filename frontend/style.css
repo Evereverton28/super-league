@@ -955,3 +955,128 @@ select:hover, select:focus {
    SELECTION
 ========================= */
 ::selection { background: rgba(0,255,179,0.2); color: #fff; }
+
+/* =========================
+   COMPUTED VALUE (read-only)
+========================= */
+.computed-value {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(0,255,179,0.5);
+    letter-spacing: 1px;
+    cursor: default;
+    user-select: none;
+}
+
+/* =========================
+   FORM GUIDE
+========================= */
+.form-cell {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-width: 90px;
+}
+
+.form-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.form-W {
+    background: rgba(0, 255, 179, 0.15);
+    color: var(--accent);
+    border: 1px solid rgba(0, 255, 179, 0.35);
+    box-shadow: 0 0 6px rgba(0, 255, 179, 0.2);
+}
+
+.form-D {
+    background: rgba(255, 200, 0, 0.12);
+    color: var(--gold);
+    border: 1px solid rgba(255, 200, 0, 0.3);
+}
+
+.form-L {
+    background: rgba(255, 60, 100, 0.12);
+    color: var(--accent3);
+    border: 1px solid rgba(255, 60, 100, 0.3);
+}
+
+/* =========================
+   HEADER ACTION BUTTONS
+========================= */
+.undo-btn {
+    border-color: rgba(180, 77, 255, 0.3);
+    color: var(--accent4);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.undo-btn:hover:not(:disabled) {
+    background: var(--accent4);
+    color: #000;
+    border-color: var(--accent4);
+    box-shadow: 0 0 24px rgba(180, 77, 255, 0.45);
+}
+
+.undo-btn:disabled {
+    opacity: 0.25;
+    cursor: default;
+    transform: none !important;
+}
+
+.export-btn {
+    border-color: rgba(0, 180, 255, 0.3);
+    color: var(--accent2);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.export-btn:hover {
+    background: var(--accent2);
+    color: #000;
+    border-color: var(--accent2);
+    box-shadow: 0 0 24px rgba(0, 180, 255, 0.45);
+}
+
+
+/* 5-column matchday table */
+.matchday-table th:nth-child(1),
+.matchday-table td:nth-child(1) { width: 38%; text-align: left; }
+.matchday-table th:nth-child(2),
+.matchday-table td:nth-child(2) { width: 38%; text-align: center; }
+.matchday-table th:nth-child(3),
+.matchday-table td:nth-child(3) { width: 8%; }
+.matchday-table th:nth-child(4),
+.matchday-table td:nth-child(4) { width: 8%; }
+.matchday-table th:nth-child(5),
+.matchday-table td:nth-child(5) { width: 8%; }
+
+/* =========================
+   SCROLLBAR
+========================= */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--accent), var(--accent2));
+    border-radius: 10px;
+}
+
+/* =========================
+   SELECTION
+========================= */
+::selection { background: rgba(0,255,179,0.2); color: #fff; }

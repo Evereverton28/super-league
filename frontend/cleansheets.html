@@ -14,6 +14,8 @@
 <header><span class="header-bracket"></span>
     <h1>Football League Manager<span class="tagline">Season 2024/25 &nbsp;// &nbsp;Live Stats<span class="cursor">_</span></span></h1>
     <div class="header-actions">
+        <button id="undo-btn" class="undo-btn" onclick="undo()" disabled title="Nothing to undo">Undo</button>
+        <button class="export-btn" onclick="exportCSV()">Export CSV</button>
         <button id="save-btn" class="save-btn" onclick="save()">Saved</button>
     </div>
 </header>
@@ -24,12 +26,40 @@
     <div id="clean-sheets"></div>
 </section>
 
+<!-- Unsaved changes modal -->
+<div id="unsaved-modal" style="display:none; position:fixed; inset:0; z-index:9999;
+     background:rgba(0,0,0,0.75); align-items:center; justify-content:center;
+     backdrop-filter:blur(4px);">
+  <div style="background:#020610; border:1px solid rgba(0,255,179,0.25);
+              padding:36px 40px; max-width:380px; width:90%; position:relative;
+              box-shadow:0 0 60px rgba(0,255,179,0.08), 0 0 0 1px rgba(0,255,179,0.05);">
+    <div style="position:absolute;top:0;left:0;right:0;height:2px;
+                background:linear-gradient(90deg,#b44dff,#00b4ff,#00ffb3,#00b4ff,#b44dff);
+                background-size:300% 100%;animation:glowLine 3s linear infinite;"></div>
+    <p style="font-family:'Orbitron',monospace;font-size:11px;letter-spacing:3px;
+              color:#00ffb3;margin-bottom:8px;text-transform:uppercase;">Unsaved Changes</p>
+    <p style="font-family:'Space Mono',monospace;font-size:11px;color:#8faabf;
+              line-height:1.7;margin-bottom:28px;">
+      You have unsaved changes.<br>What would you like to do?
+    </p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <button id="modal-save-btn" class="save-btn" style="flex:1">Save &amp; Leave</button>
+      <button id="modal-discard-btn" class="export-btn" style="flex:1">Discard</button>
+      <button id="modal-cancel-btn" style="flex:1">Stay</button>
+    </div>
+  </div>
+</div>
+
 <script src="nav.js"></script>
 <script src="script.js"></script>
 <script>
     renderNav();
     load().then(() => {
+        resetStats();
+        calculateResults();
+        calculateCleanSheets();
         renderStatTable("clean-sheets", "scorers_cleansheets", "Clean Sheets");
+        updateUndoBtn();
     });
 </script>
 </body>

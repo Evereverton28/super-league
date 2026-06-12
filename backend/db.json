@@ -4,6 +4,7 @@
       {
         "away": "Manchester City",
         "awayGoals": 0,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": 0,
         "played": true
@@ -11,6 +12,7 @@
       {
         "away": "Arsenal",
         "awayGoals": 0,
+        "events": [],
         "home": "Spurs",
         "homeGoals": 0,
         "played": true
@@ -18,6 +20,7 @@
       {
         "away": "Liverpool",
         "awayGoals": 0,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": 0,
         "played": true
@@ -25,6 +28,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": 1,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": 1,
         "played": true
@@ -32,6 +36,7 @@
       {
         "away": "Juventus",
         "awayGoals": 1,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": 2,
         "played": true
@@ -39,6 +44,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": 0,
+        "events": [],
         "home": "Napoli",
         "homeGoals": 0,
         "played": true
@@ -46,6 +52,7 @@
       {
         "away": "PSG",
         "awayGoals": 2,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": 0,
         "played": true
@@ -53,6 +60,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": 1,
+        "events": [],
         "home": "BVB",
         "homeGoals": 1,
         "played": true
@@ -62,6 +70,7 @@
       {
         "away": "Spurs",
         "awayGoals": 1,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": 0,
         "played": true
@@ -69,6 +78,7 @@
       {
         "away": "Arsenal",
         "awayGoals": 1,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": 0,
         "played": true
@@ -76,6 +86,7 @@
       {
         "away": "Barcelona",
         "awayGoals": 0,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": 1,
         "played": true
@@ -83,6 +94,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": 1,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": 1,
         "played": true
@@ -90,6 +102,7 @@
       {
         "away": "Napoli",
         "awayGoals": 0,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": 0,
         "played": true
@@ -97,6 +110,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": 1,
+        "events": [],
         "home": "Juventus",
         "homeGoals": 0,
         "played": true
@@ -104,6 +118,7 @@
       {
         "away": "BVB",
         "awayGoals": 0,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": 1,
         "played": true
@@ -111,6 +126,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": 0,
+        "events": [],
         "home": "PSG",
         "homeGoals": 3,
         "played": true
@@ -120,6 +136,7 @@
       {
         "away": "Arsenal",
         "awayGoals": 0,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": 1,
         "played": true
@@ -127,6 +144,7 @@
       {
         "away": "Spurs",
         "awayGoals": 0,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": 1,
         "played": true
@@ -134,6 +152,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": 0,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": 1,
         "played": true
@@ -141,6 +160,7 @@
       {
         "away": "Barcelona",
         "awayGoals": 1,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": 1,
         "played": true
@@ -148,6 +168,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": 2,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": 2,
         "played": true
@@ -155,6 +176,7 @@
       {
         "away": "Napoli",
         "awayGoals": 1,
+        "events": [],
         "home": "Juventus",
         "homeGoals": 1,
         "played": true
@@ -162,6 +184,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": 2,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": 1,
         "played": true
@@ -169,6 +192,7 @@
       {
         "away": "BVB",
         "awayGoals": 0,
+        "events": [],
         "home": "PSG",
         "homeGoals": 2,
         "played": true
@@ -177,56 +201,210 @@
     [
       {
         "away": "Chelsea",
-        "awayGoals": null,
+        "awayGoals": 1,
+        "events": [],
         "home": "Manchester United",
-        "homeGoals": null,
-        "played": false
+        "homeGoals": 0,
+        "played": true
       },
       {
         "away": "Liverpool",
-        "awayGoals": null,
+        "awayGoals": 1,
+        "events": [],
         "home": "Manchester City",
-        "homeGoals": null,
-        "played": false
+        "homeGoals": 1,
+        "played": true
       },
       {
         "away": "Barcelona",
-        "awayGoals": null,
+        "awayGoals": 0,
+        "events": [],
         "home": "Spurs",
-        "homeGoals": null,
-        "played": false
+        "homeGoals": 1,
+        "played": true
       },
       {
         "away": "Real Madrid",
-        "awayGoals": null,
+        "awayGoals": 0,
+        "events": [],
         "home": "Arsenal",
-        "homeGoals": null,
-        "played": false
+        "homeGoals": 0,
+        "played": true
       },
       {
         "away": "AC Milan",
-        "awayGoals": null,
+        "awayGoals": 0,
+        "events": [],
         "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
+        "homeGoals": 1,
+        "played": true
+      },
+      {
+        "away": "PSG",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": 2,
+        "played": true
+      },
+      {
+        "away": "BVB",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "Bayern Munich",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Inter Milan",
+        "homeGoals": 0,
+        "played": true
+      }
+    ],
+    [
+      {
+        "away": "Liverpool",
+        "awayGoals": 1,
+        "events": [
+          {
+            "club": "Liverpool",
+            "player": "",
+            "qty": 1,
+            "team": "Liverpool",
+            "type": "goal"
+          },
+          {
+            "club": "Liverpool",
+            "player": "",
+            "team": "Liverpool",
+            "type": "goal"
+          }
+        ],
+        "home": "Manchester United",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "Chelsea",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Manchester City",
+        "homeGoals": 2,
+        "played": true
+      },
+      {
+        "away": "Real Madrid",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Spurs",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "Barcelona",
+        "awayGoals": 2,
+        "events": [],
+        "home": "Arsenal",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "PSG",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Atletico Madrid",
+        "homeGoals": 1,
+        "played": true
+      },
+      {
+        "away": "AC Milan",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": 2,
+        "played": true
+      },
+      {
+        "away": "Bayern Munich",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "BVB",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Inter Milan",
+        "homeGoals": 1,
+        "played": true
+      }
+    ],
+    [
+      {
+        "away": "Barcelona",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Manchester United",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "Real Madrid",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Manchester City",
+        "homeGoals": 3,
+        "played": true
+      },
+      {
+        "away": "Chelsea",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Spurs",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "Liverpool",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Arsenal",
+        "homeGoals": 0,
+        "played": true
+      },
+      {
+        "away": "BVB",
+        "awayGoals": 0,
+        "events": [],
+        "home": "Atletico Madrid",
+        "homeGoals": 1,
+        "played": true
+      },
+      {
+        "away": "Bayern Munich",
+        "awayGoals": 9,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": 2,
+        "played": true
+      },
+      {
+        "away": "AC Milan",
+        "awayGoals": 1,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": 2,
+        "played": true
       },
       {
         "away": "PSG",
         "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "BVB",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Bayern Munich",
-        "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -234,145 +412,33 @@
     ],
     [
       {
+        "away": "Real Madrid",
+        "awayGoals": null,
+        "events": [],
+        "home": "Manchester United",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Barcelona",
+        "awayGoals": null,
+        "events": [],
+        "home": "Manchester City",
+        "homeGoals": null,
+        "played": false
+      },
+      {
         "away": "Liverpool",
         "awayGoals": null,
-        "home": "Manchester United",
+        "events": [],
+        "home": "Spurs",
         "homeGoals": null,
         "played": false
       },
       {
         "away": "Chelsea",
         "awayGoals": null,
-        "home": "Manchester City",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "Spurs",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "Arsenal",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "PSG",
-        "awayGoals": null,
-        "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "AC Milan",
-        "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Bayern Munich",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "BVB",
-        "awayGoals": null,
-        "home": "Inter Milan",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "Manchester United",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "Manchester City",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Chelsea",
-        "awayGoals": null,
-        "home": "Spurs",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Liverpool",
-        "awayGoals": null,
-        "home": "Arsenal",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "BVB",
-        "awayGoals": null,
-        "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Bayern Munich",
-        "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "AC Milan",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "PSG",
-        "awayGoals": null,
-        "home": "Inter Milan",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "Manchester United",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "Manchester City",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Liverpool",
-        "awayGoals": null,
-        "home": "Spurs",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Chelsea",
-        "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -380,6 +446,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -387,6 +454,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -394,6 +462,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -401,6 +470,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -410,6 +480,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -417,6 +488,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -424,6 +496,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -431,6 +504,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -438,6 +512,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -445,6 +520,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -452,6 +528,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -459,6 +536,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -468,6 +546,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -475,6 +554,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -482,6 +562,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -489,6 +570,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -496,6 +578,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -503,6 +586,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -510,6 +594,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -517,6 +602,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -526,6 +612,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -533,6 +620,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -540,6 +628,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -547,6 +636,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -554,6 +644,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -561,6 +652,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -568,6 +660,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -575,6 +668,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -584,6 +678,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -591,6 +686,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -598,6 +694,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -605,6 +702,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -612,6 +710,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -619,6 +718,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -626,6 +726,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -633,6 +734,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -642,6 +744,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -649,6 +752,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -656,6 +760,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -663,6 +768,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -670,6 +776,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -677,6 +784,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -684,6 +792,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -691,6 +800,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -700,6 +810,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -707,6 +818,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -714,6 +826,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -721,6 +834,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -728,6 +842,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -735,6 +850,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -742,6 +858,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -749,6 +866,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -758,6 +876,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -765,6 +884,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -772,6 +892,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -779,6 +900,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -786,6 +908,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -793,6 +916,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -800,6 +924,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -807,6 +932,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -816,6 +942,7 @@
       {
         "away": "Bayern Munich",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester United",
         "homeGoals": null,
         "played": false
@@ -823,6 +950,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -830,6 +958,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -837,6 +966,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -844,6 +974,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -851,6 +982,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -858,6 +990,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -865,6 +998,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -874,6 +1008,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Manchester City",
         "homeGoals": null,
         "played": false
@@ -881,6 +1016,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -888,6 +1024,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -895,6 +1032,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -902,6 +1040,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -909,6 +1048,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -916,6 +1056,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -923,6 +1064,7 @@
       {
         "away": "BVB",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -932,6 +1074,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -939,6 +1082,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -946,6 +1090,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -953,6 +1098,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -960,6 +1106,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -967,6 +1114,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -974,6 +1122,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -981,6 +1130,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -990,6 +1140,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Spurs",
         "homeGoals": null,
         "played": false
@@ -997,6 +1148,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Arsenal",
         "homeGoals": null,
         "played": false
@@ -1004,6 +1156,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -1011,6 +1164,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -1018,6 +1172,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1025,6 +1180,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1032,6 +1188,7 @@
       {
         "away": "PSG",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1039,6 +1196,7 @@
       {
         "away": "AC Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1048,6 +1206,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -1055,6 +1214,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -1062,6 +1222,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -1069,6 +1230,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -1076,6 +1238,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1083,6 +1246,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1090,6 +1254,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1097,6 +1262,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1106,6 +1272,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -1113,6 +1280,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -1120,6 +1288,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -1127,6 +1296,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -1134,6 +1304,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1141,6 +1312,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1148,6 +1320,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1155,6 +1328,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1164,6 +1338,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Chelsea",
         "homeGoals": null,
         "played": false
@@ -1171,6 +1346,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "Liverpool",
         "homeGoals": null,
         "played": false
@@ -1178,6 +1354,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Barcelona",
         "homeGoals": null,
         "played": false
@@ -1185,6 +1362,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Real Madrid",
         "homeGoals": null,
         "played": false
@@ -1192,6 +1370,7 @@
       {
         "away": "Napoli",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1199,6 +1378,7 @@
       {
         "away": "Inter Milan",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1206,6 +1386,7 @@
       {
         "away": "Atletico Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1213,238 +1394,7 @@
       {
         "away": "Juventus",
         "awayGoals": null,
-        "home": "Bayern Munich",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Arsenal",
-        "awayGoals": null,
-        "home": "Chelsea",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Spurs",
-        "awayGoals": null,
-        "home": "Liverpool",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester City",
-        "awayGoals": null,
-        "home": "Barcelona",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester United",
-        "awayGoals": null,
-        "home": "Real Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Inter Milan",
-        "awayGoals": null,
-        "home": "AC Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Napoli",
-        "awayGoals": null,
-        "home": "PSG",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Juventus",
-        "awayGoals": null,
-        "home": "BVB",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Atletico Madrid",
-        "awayGoals": null,
-        "home": "Bayern Munich",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Manchester United",
-        "awayGoals": null,
-        "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester City",
-        "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Spurs",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Arsenal",
-        "awayGoals": null,
-        "home": "Inter Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Chelsea",
-        "awayGoals": null,
-        "home": "AC Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Liverpool",
-        "awayGoals": null,
-        "home": "PSG",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "BVB",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "Bayern Munich",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Manchester City",
-        "awayGoals": null,
-        "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester United",
-        "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Arsenal",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Spurs",
-        "awayGoals": null,
-        "home": "Inter Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Liverpool",
-        "awayGoals": null,
-        "home": "AC Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Chelsea",
-        "awayGoals": null,
-        "home": "PSG",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "BVB",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "Bayern Munich",
-        "homeGoals": null,
-        "played": false
-      }
-    ],
-    [
-      {
-        "away": "Spurs",
-        "awayGoals": null,
-        "home": "Atletico Madrid",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Arsenal",
-        "awayGoals": null,
-        "home": "Juventus",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester United",
-        "awayGoals": null,
-        "home": "Napoli",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Manchester City",
-        "awayGoals": null,
-        "home": "Inter Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Barcelona",
-        "awayGoals": null,
-        "home": "AC Milan",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Real Madrid",
-        "awayGoals": null,
-        "home": "PSG",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Chelsea",
-        "awayGoals": null,
-        "home": "BVB",
-        "homeGoals": null,
-        "played": false
-      },
-      {
-        "away": "Liverpool",
-        "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1454,6 +1404,271 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
+        "home": "Chelsea",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Spurs",
+        "awayGoals": null,
+        "events": [],
+        "home": "Liverpool",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester City",
+        "awayGoals": null,
+        "events": [],
+        "home": "Barcelona",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester United",
+        "awayGoals": null,
+        "events": [],
+        "home": "Real Madrid",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Inter Milan",
+        "awayGoals": null,
+        "events": [],
+        "home": "AC Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Napoli",
+        "awayGoals": null,
+        "events": [],
+        "home": "PSG",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Juventus",
+        "awayGoals": null,
+        "events": [],
+        "home": "BVB",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Atletico Madrid",
+        "awayGoals": null,
+        "events": [],
+        "home": "Bayern Munich",
+        "homeGoals": null,
+        "played": false
+      }
+    ],
+    [
+      {
+        "away": "Manchester United",
+        "awayGoals": null,
+        "events": [],
+        "home": "Atletico Madrid",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester City",
+        "awayGoals": null,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Spurs",
+        "awayGoals": null,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Arsenal",
+        "awayGoals": null,
+        "events": [],
+        "home": "Inter Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Chelsea",
+        "awayGoals": null,
+        "events": [],
+        "home": "AC Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Liverpool",
+        "awayGoals": null,
+        "events": [],
+        "home": "PSG",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Barcelona",
+        "awayGoals": null,
+        "events": [],
+        "home": "BVB",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Real Madrid",
+        "awayGoals": null,
+        "events": [],
+        "home": "Bayern Munich",
+        "homeGoals": null,
+        "played": false
+      }
+    ],
+    [
+      {
+        "away": "Manchester City",
+        "awayGoals": null,
+        "events": [],
+        "home": "Atletico Madrid",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester United",
+        "awayGoals": null,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Arsenal",
+        "awayGoals": null,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Spurs",
+        "awayGoals": null,
+        "events": [],
+        "home": "Inter Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Liverpool",
+        "awayGoals": null,
+        "events": [],
+        "home": "AC Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Chelsea",
+        "awayGoals": null,
+        "events": [],
+        "home": "PSG",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Real Madrid",
+        "awayGoals": null,
+        "events": [],
+        "home": "BVB",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Barcelona",
+        "awayGoals": null,
+        "events": [],
+        "home": "Bayern Munich",
+        "homeGoals": null,
+        "played": false
+      }
+    ],
+    [
+      {
+        "away": "Spurs",
+        "awayGoals": null,
+        "events": [],
+        "home": "Atletico Madrid",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Arsenal",
+        "awayGoals": null,
+        "events": [],
+        "home": "Juventus",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester United",
+        "awayGoals": null,
+        "events": [],
+        "home": "Napoli",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Manchester City",
+        "awayGoals": null,
+        "events": [],
+        "home": "Inter Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Barcelona",
+        "awayGoals": null,
+        "events": [],
+        "home": "AC Milan",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Real Madrid",
+        "awayGoals": null,
+        "events": [],
+        "home": "PSG",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Chelsea",
+        "awayGoals": null,
+        "events": [],
+        "home": "BVB",
+        "homeGoals": null,
+        "played": false
+      },
+      {
+        "away": "Liverpool",
+        "awayGoals": null,
+        "events": [],
+        "home": "Bayern Munich",
+        "homeGoals": null,
+        "played": false
+      }
+    ],
+    [
+      {
+        "away": "Arsenal",
+        "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -1461,6 +1676,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -1468,6 +1684,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1475,6 +1692,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1482,6 +1700,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1489,6 +1708,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1496,6 +1716,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1503,6 +1724,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1512,6 +1734,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -1519,6 +1742,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -1526,6 +1750,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1533,6 +1758,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1540,6 +1766,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1547,6 +1774,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1554,6 +1782,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1561,6 +1790,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1570,6 +1800,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -1577,6 +1808,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -1584,6 +1816,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1591,6 +1824,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1598,6 +1832,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1605,6 +1840,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1612,6 +1848,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1619,6 +1856,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1628,6 +1866,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -1635,6 +1874,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -1642,6 +1882,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1649,6 +1890,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1656,6 +1898,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1663,6 +1906,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1670,6 +1914,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1677,6 +1922,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1686,6 +1932,7 @@
       {
         "away": "Real Madrid",
         "awayGoals": null,
+        "events": [],
         "home": "Atletico Madrid",
         "homeGoals": null,
         "played": false
@@ -1693,6 +1940,7 @@
       {
         "away": "Barcelona",
         "awayGoals": null,
+        "events": [],
         "home": "Juventus",
         "homeGoals": null,
         "played": false
@@ -1700,6 +1948,7 @@
       {
         "away": "Liverpool",
         "awayGoals": null,
+        "events": [],
         "home": "Napoli",
         "homeGoals": null,
         "played": false
@@ -1707,6 +1956,7 @@
       {
         "away": "Chelsea",
         "awayGoals": null,
+        "events": [],
         "home": "Inter Milan",
         "homeGoals": null,
         "played": false
@@ -1714,6 +1964,7 @@
       {
         "away": "Arsenal",
         "awayGoals": null,
+        "events": [],
         "home": "AC Milan",
         "homeGoals": null,
         "played": false
@@ -1721,6 +1972,7 @@
       {
         "away": "Spurs",
         "awayGoals": null,
+        "events": [],
         "home": "PSG",
         "homeGoals": null,
         "played": false
@@ -1728,6 +1980,7 @@
       {
         "away": "Manchester City",
         "awayGoals": null,
+        "events": [],
         "home": "BVB",
         "homeGoals": null,
         "played": false
@@ -1735,6 +1988,7 @@
       {
         "away": "Manchester United",
         "awayGoals": null,
+        "events": [],
         "home": "Bayern Munich",
         "homeGoals": null,
         "played": false
@@ -1744,8 +1998,23 @@
   "scorers": [],
   "scorers_assists": [
     {
+      "club": "Juventus",
+      "player": "Dybala",
+      "value": 5
+    },
+    {
       "club": "Atletico Madrid",
       "player": "Griezmann",
+      "value": 2
+    },
+    {
+      "club": "Atletico Madrid",
+      "player": "Koke",
+      "value": 2
+    },
+    {
+      "club": "Barcelona",
+      "player": "Busquets",
       "value": 2
     },
     {
@@ -1759,8 +2028,38 @@
       "value": 2
     },
     {
+      "club": "Manchester City",
+      "player": "De Bruyne",
+      "value": 2
+    },
+    {
+      "club": "Manchester City",
+      "player": "Silva",
+      "value": 2
+    },
+    {
+      "club": "PSG",
+      "player": "Draxler",
+      "value": 2
+    },
+    {
+      "club": "AC Milan",
+      "player": "Calabria",
+      "value": 1
+    },
+    {
       "club": "AC Milan",
       "player": "Higuain",
+      "value": 1
+    },
+    {
+      "club": "AC Milan",
+      "player": "Kessie",
+      "value": 1
+    },
+    {
+      "club": "AC Milan",
+      "player": "Rodriguez",
       "value": 1
     },
     {
@@ -1775,7 +2074,12 @@
     },
     {
       "club": "Atletico Madrid",
-      "player": "Koke",
+      "player": "Lemar",
+      "value": 1
+    },
+    {
+      "club": "Atletico Madrid",
+      "player": "Rodri",
       "value": 1
     },
     {
@@ -1795,12 +2099,27 @@
     },
     {
       "club": "Chelsea",
+      "player": "Alonso",
+      "value": 1
+    },
+    {
+      "club": "Chelsea",
       "player": "Azpilicueta",
       "value": 1
     },
     {
       "club": "Chelsea",
       "player": "Kovacic",
+      "value": 1
+    },
+    {
+      "club": "Chelsea",
+      "player": "Mane",
+      "value": 1
+    },
+    {
+      "club": "Inter Milan",
+      "player": "Asamoah",
       "value": 1
     },
     {
@@ -1820,12 +2139,17 @@
     },
     {
       "club": "Juventus",
+      "player": "Cuadradp",
+      "value": 1
+    },
+    {
+      "club": "Juventus",
       "player": "D, Costa",
       "value": 1
     },
     {
       "club": "Juventus",
-      "player": "Dybala",
+      "player": "Khedira",
       "value": 1
     },
     {
@@ -1835,17 +2159,37 @@
     },
     {
       "club": "Liverpool",
+      "player": "Henderson",
+      "value": 1
+    },
+    {
+      "club": "Liverpool",
       "player": "Keita",
       "value": 1
     },
     {
+      "club": "Liverpool",
+      "player": "Mane",
+      "value": 1
+    },
+    {
       "club": "Manchester City",
-      "player": "Silva",
+      "player": "Gundogan",
       "value": 1
     },
     {
       "club": "Napoli",
       "player": "Callejon",
+      "value": 1
+    },
+    {
+      "club": "Napoli",
+      "player": "Fabian",
+      "value": 1
+    },
+    {
+      "club": "Napoli",
+      "player": "Insigne",
       "value": 1
     },
     {
@@ -1860,7 +2204,7 @@
     },
     {
       "club": "PSG",
-      "player": "Draxler",
+      "player": "Mbappe",
       "value": 1
     },
     {
@@ -1875,12 +2219,17 @@
     },
     {
       "club": "Real Madrid",
-      "player": "Calabria",
+      "player": "Bale",
       "value": 1
     },
     {
       "club": "Real Madrid",
       "player": "Carvahal",
+      "value": 1
+    },
+    {
+      "club": "Real Madrid",
+      "player": "Mayoral",
       "value": 1
     },
     {
@@ -1891,6 +2240,11 @@
     {
       "club": "Spurs",
       "player": "D.Alli",
+      "value": 1
+    },
+    {
+      "club": "Spurs",
+      "player": "Kane",
       "value": 1
     }
   ],
@@ -1903,7 +2257,7 @@
     {
       "club": "Chelsea",
       "player": "Kepa",
-      "value": 3
+      "value": 5
     },
     {
       "club": "PSG",
@@ -1913,37 +2267,37 @@
     {
       "club": "Napoli",
       "player": "Karnezis",
-      "value": 2
+      "value": 4
     },
     {
       "club": "Inter Milan",
       "player": "Handanovic",
-      "value": 2
+      "value": 4
     },
     {
       "club": "Spurs",
       "player": "Lloris",
-      "value": 2
+      "value": 3
     },
     {
       "club": "Manchester City",
       "player": "Ederson",
-      "value": 2
+      "value": 3
     },
     {
       "club": "Manchester United",
       "player": "De gea",
-      "value": 2
+      "value": 3
     },
     {
       "club": "Liverpool",
       "player": "Alisson",
-      "value": 1
+      "value": 3
     },
     {
       "club": "Atletico Madrid",
       "player": "Oblak",
-      "value": 1
+      "value": 3
     },
     {
       "club": "AC Milan",
@@ -1953,12 +2307,12 @@
     {
       "club": "Barcelona",
       "player": "Ter Stegen",
-      "value": 0
+      "value": 2
     },
     {
       "club": "Real Madrid",
       "player": "Navas",
-      "value": 0
+      "value": 2
     },
     {
       "club": "Juventus",
@@ -1968,23 +2322,38 @@
     {
       "club": "BVB",
       "player": "Burki",
-      "value": 0
+      "value": 1
     },
     {
       "club": "Bayern Munich",
       "player": "Neuer",
-      "value": 0
+      "value": 2
     }
   ],
   "scorers_goals": [
     {
       "club": "Atletico Madrid",
       "player": "D.Costa",
-      "value": 3
+      "value": 4
+    },
+    {
+      "club": "Juventus",
+      "player": "Ronaldo",
+      "value": 4
+    },
+    {
+      "club": "Manchester City",
+      "player": "Aguero",
+      "value": 4
     },
     {
       "club": "PSG",
       "player": "Neymar",
+      "value": 4
+    },
+    {
+      "club": "Inter Milan",
+      "player": "Icardi",
       "value": 3
     },
     {
@@ -1994,12 +2363,27 @@
     },
     {
       "club": "Inter Milan",
-      "player": "Icardi",
+      "player": "Perisic",
       "value": 2
     },
     {
-      "club": "Inter Milan",
-      "player": "Perisic",
+      "club": "Juventus",
+      "player": "D.Costa",
+      "value": 2
+    },
+    {
+      "club": "Juventus",
+      "player": "Higuain",
+      "value": 2
+    },
+    {
+      "club": "Manchester City",
+      "player": "De Bruyne",
+      "value": 2
+    },
+    {
+      "club": "Napoli",
+      "player": "Mertens",
       "value": 2
     },
     {
@@ -2008,8 +2392,18 @@
       "value": 2
     },
     {
+      "club": "Real Madrid",
+      "player": "Benzema",
+      "value": 2
+    },
+    {
       "club": "AC Milan",
       "player": "Calhanoglu",
+      "value": 1
+    },
+    {
+      "club": "AC Milan",
+      "player": "Higuain",
       "value": 1
     },
     {
@@ -2019,12 +2413,32 @@
     },
     {
       "club": "Atletico Madrid",
+      "player": "Griezmann",
+      "value": 1
+    },
+    {
+      "club": "Atletico Madrid",
+      "player": "Koke",
+      "value": 1
+    },
+    {
+      "club": "Atletico Madrid",
       "player": "Lemar",
       "value": 1
     },
     {
       "club": "Barcelona",
+      "player": "Arthur",
+      "value": 1
+    },
+    {
+      "club": "Barcelona",
       "player": "Coutinho",
+      "value": 1
+    },
+    {
+      "club": "Barcelona",
+      "player": "Messi",
       "value": 1
     },
     {
@@ -2053,8 +2467,23 @@
       "value": 1
     },
     {
+      "club": "Chelsea",
+      "player": "Kovacic",
+      "value": 1
+    },
+    {
+      "club": "Chelsea",
+      "player": "Pedro",
+      "value": 1
+    },
+    {
       "club": "Inter Milan",
       "player": "Nainggolan",
+      "value": 1
+    },
+    {
+      "club": "Juventus",
+      "player": "Bonucci",
       "value": 1
     },
     {
@@ -2063,13 +2492,18 @@
       "value": 1
     },
     {
-      "club": "Juventus",
-      "player": "Higuain",
+      "club": "Liverpool",
+      "player": "Fabinho",
       "value": 1
     },
     {
-      "club": "Juventus",
-      "player": "Ronaldo",
+      "club": "Liverpool",
+      "player": "Firmino",
+      "value": 1
+    },
+    {
+      "club": "Liverpool",
+      "player": "Henderson",
       "value": 1
     },
     {
@@ -2084,7 +2518,7 @@
     },
     {
       "club": "Manchester City",
-      "player": "De Bruyne",
+      "player": "Silva",
       "value": 1
     },
     {
@@ -2108,13 +2542,23 @@
       "value": 1
     },
     {
+      "club": "PSG",
+      "player": "Rabiot",
+      "value": 1
+    },
+    {
       "club": "Real Madrid",
-      "player": "Benzema",
+      "player": "Asensio",
       "value": 1
     },
     {
       "club": "Real Madrid",
       "player": "Kroos",
+      "value": 1
+    },
+    {
+      "club": "Spurs",
+      "player": "D.Alli",
       "value": 1
     },
     {
@@ -2128,6 +2572,21 @@
     {
       "club": "Bayern Munich",
       "player": "Alaba",
+      "value": 2
+    },
+    {
+      "club": "Atletico Madrid",
+      "player": "Lemar",
+      "value": 1
+    },
+    {
+      "club": "Barcelona",
+      "player": "S.Busquets",
+      "value": 1
+    },
+    {
+      "player": "Piszczek",
+      "club": "BVB",
       "value": 1
     },
     {
@@ -2136,203 +2595,208 @@
       "value": 1
     },
     {
-      "club": "Barcelona",
-      "player": "S.Busquets",
+      "club": "Liverpool",
+      "player": "Henderson",
+      "value": 1
+    },
+    {
+      "club": "Manchester United",
+      "player": "Smalling",
       "value": 1
     }
   ],
   "table": [
     {
-      "drawn": 0,
-      "ga": 0,
-      "gd": 5,
-      "gf": 5,
-      "lost": 0,
-      "played": 2,
+      "drawn": 1,
+      "ga": 3,
+      "gd": 6,
+      "gf": 9,
+      "lost": 1,
+      "played": 5,
       "pos": 1,
-      "pts": 6,
+      "pts": 10,
       "team": "PSG",
+      "won": 3
+    },
+    {
+      "drawn": 3,
+      "ga": 4,
+      "gd": 2,
+      "gf": 6,
+      "lost": 0,
+      "played": 5,
+      "pos": 2,
+      "pts": 9,
+      "team": "Atletico Madrid",
       "won": 2
     },
     {
-      "drawn": 1,
-      "ga": 1,
-      "gd": 1,
-      "gf": 2,
-      "lost": 0,
-      "played": 2,
-      "pos": 2,
-      "pts": 4,
-      "team": "Atletico Madrid",
-      "won": 1
-    },
-    {
-      "drawn": 1,
-      "ga": 0,
-      "gd": 1,
+      "drawn": 2,
+      "ga": 3,
+      "gd": -2,
       "gf": 1,
-      "lost": 0,
-      "played": 2,
+      "lost": 2,
+      "played": 5,
       "pos": 3,
-      "pts": 4,
+      "pts": 5,
       "team": "Arsenal",
       "won": 1
     },
     {
       "drawn": 1,
-      "ga": 0,
+      "ga": 2,
       "gd": 1,
-      "gf": 1,
-      "lost": 0,
-      "played": 2,
+      "gf": 3,
+      "lost": 1,
+      "played": 5,
       "pos": 4,
-      "pts": 4,
+      "pts": 10,
       "team": "Chelsea",
-      "won": 1
+      "won": 3
     },
     {
-      "drawn": 1,
-      "ga": 0,
-      "gd": 1,
-      "gf": 1,
+      "drawn": 3,
+      "ga": 2,
+      "gd": 2,
+      "gf": 4,
       "lost": 0,
-      "played": 2,
+      "played": 5,
       "pos": 5,
-      "pts": 4,
+      "pts": 9,
       "team": "Inter Milan",
-      "won": 1
+      "won": 2
     },
     {
       "drawn": 1,
-      "ga": 0,
-      "gd": 1,
-      "gf": 1,
-      "lost": 0,
-      "played": 2,
+      "ga": 2,
+      "gd": 0,
+      "gf": 2,
+      "lost": 2,
+      "played": 5,
       "pos": 6,
-      "pts": 4,
+      "pts": 7,
       "team": "Spurs",
-      "won": 1
+      "won": 2
     },
     {
       "drawn": 0,
-      "ga": 2,
-      "gd": -1,
-      "gf": 1,
-      "lost": 1,
-      "played": 2,
+      "ga": 7,
+      "gd": -4,
+      "gf": 3,
+      "lost": 4,
+      "played": 5,
       "pos": 7,
       "pts": 3,
       "team": "AC Milan",
       "won": 1
     },
     {
-      "drawn": 2,
-      "ga": 2,
+      "drawn": 3,
+      "ga": 3,
       "gd": 0,
-      "gf": 2,
-      "lost": 0,
-      "played": 2,
+      "gf": 3,
+      "lost": 1,
+      "played": 5,
       "pos": 8,
-      "pts": 2,
+      "pts": 6,
       "team": "Real Madrid",
-      "won": 0
+      "won": 1
     },
     {
-      "drawn": 2,
+      "drawn": 4,
+      "ga": 3,
+      "gd": 1,
+      "gf": 4,
+      "lost": 0,
+      "played": 5,
+      "pos": 9,
+      "pts": 7,
+      "team": "Liverpool",
+      "won": 1
+    },
+    {
+      "drawn": 5,
       "ga": 1,
       "gd": 0,
       "gf": 1,
       "lost": 0,
-      "played": 2,
-      "pos": 9,
-      "pts": 2,
-      "team": "Liverpool",
-      "won": 0
-    },
-    {
-      "drawn": 2,
-      "ga": 0,
-      "gd": 0,
-      "gf": 0,
-      "lost": 0,
-      "played": 2,
+      "played": 5,
       "pos": 10,
-      "pts": 2,
+      "pts": 5,
       "team": "Napoli",
       "won": 0
     },
     {
-      "drawn": 1,
-      "ga": 2,
-      "gd": -1,
-      "gf": 1,
-      "lost": 1,
-      "played": 2,
+      "drawn": 2,
+      "ga": 4,
+      "gd": 0,
+      "gf": 4,
+      "lost": 2,
+      "played": 5,
       "pos": 11,
-      "pts": 1,
+      "pts": 5,
       "team": "Barcelona",
-      "won": 0
+      "won": 1
     },
     {
-      "drawn": 1,
-      "ga": 2,
-      "gd": -1,
+      "drawn": 2,
+      "ga": 5,
+      "gd": -4,
       "gf": 1,
-      "lost": 1,
-      "played": 2,
+      "lost": 3,
+      "played": 5,
       "pos": 12,
-      "pts": 1,
+      "pts": 2,
       "team": "BVB",
       "won": 0
     },
     {
-      "drawn": 1,
-      "ga": 1,
-      "gd": -1,
-      "gf": 0,
+      "drawn": 2,
+      "ga": 2,
+      "gd": 2,
+      "gf": 4,
       "lost": 1,
-      "played": 2,
+      "played": 5,
       "pos": 13,
-      "pts": 1,
+      "pts": 8,
       "team": "Manchester City",
-      "won": 0
+      "won": 2
     },
     {
       "drawn": 1,
-      "ga": 1,
-      "gd": -1,
-      "gf": 0,
-      "lost": 1,
-      "played": 2,
-      "pos": 14,
-      "pts": 1,
-      "team": "Manchester United",
-      "won": 0
-    },
-    {
-      "drawn": 1,
-      "ga": 4,
-      "gd": -3,
-      "gf": 1,
-      "lost": 1,
-      "played": 2,
-      "pos": 15,
-      "pts": 1,
-      "team": "Bayern Munich",
-      "won": 0
-    },
-    {
-      "drawn": 0,
       "ga": 3,
       "gd": -2,
       "gf": 1,
+      "lost": 3,
+      "played": 5,
+      "pos": 14,
+      "pts": 4,
+      "team": "Manchester United",
+      "won": 1
+    },
+    {
+      "drawn": 3,
+      "ga": 5,
+      "gd": -2,
+      "gf": 3,
+      "lost": 1,
+      "played": 5,
+      "pos": 15,
+      "pts": 6,
+      "team": "Bayern Munich",
+      "won": 1
+    },
+    {
+      "drawn": 1,
+      "ga": 6,
+      "gd": 0,
+      "gf": 6,
       "lost": 2,
-      "played": 2,
+      "played": 5,
       "pos": 16,
-      "pts": 0,
+      "pts": 7,
       "team": "Juventus",
-      "won": 0
+      "won": 2
     }
   ]
 }
